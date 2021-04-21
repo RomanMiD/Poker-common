@@ -1,5 +1,5 @@
-import { UserBase } from "../../user-base.interface";
-import { ResponseWrapper } from "../response-wrapper.interface";
+import { UserBase } from '../../user-base.interface';
+import { ResponseWrapper } from '../response-wrapper.interface';
 
 
 export interface LoginResponse extends ResponseWrapper<LoginResponseData> {
