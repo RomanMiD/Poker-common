@@ -15,4 +15,8 @@ export interface Story {
    * Позиция в списке историй
    */
   position: number;
+  /**
+   * ID игры
+   */
+  gameID: string;
 }

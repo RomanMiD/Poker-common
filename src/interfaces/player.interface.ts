@@ -1,10 +1,10 @@
-import { UserBase } from './user-base.interface';
-import { CardValue, Role } from '../enums';
+import { PlayerStatus, Role } from '../enums';
 
-export interface Player extends UserBase {
+export interface Player {
+  _id?: string;
+  userID: string;
   role: Role;
   gameID: string;
-  isOnline: boolean;
-  lastOnlineDate: Date;
-  voteValue: null | CardValue;
+  lastOnlineDate: Date | null;
+  status: PlayerStatus;
 }
