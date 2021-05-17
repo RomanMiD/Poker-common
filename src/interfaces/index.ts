@@ -5,3 +5,4 @@ export * from './player.interface';
 export * from './story.interface';
 export * from './game-full.interface';
 export * from './game-base.interface';
+export * from './game-situation.interface';
