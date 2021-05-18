@@ -1,6 +1,6 @@
 import { ResponseWrapper } from '../response-wrapper.interface';
-import { GameBase } from '../../game-base.interface';
+import { GameListItem } from '../../game-list-item.interface';
 
-export interface GameListResponse extends ResponseWrapper<GameBase[]>{
+export interface GameListResponse extends ResponseWrapper<GameListItem[]>{
 
 }

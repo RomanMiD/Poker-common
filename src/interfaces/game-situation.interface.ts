@@ -1,8 +1,8 @@
-import { CardValue, gameStatus } from '../enums';
+import { CardValue, GameStatus } from '../enums';
 
 export interface GameSituation {
   gameID: string,
-  status: gameStatus,
+  status: GameStatus,
   storiesResult?: StoryResult[] | null,
   currentStoryID?: string | null
 }

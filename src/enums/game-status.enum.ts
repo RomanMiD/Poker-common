@@ -1,4 +1,4 @@
-export const enum gameStatus {
+export const enum GameStatus {
   Idle = 'idle',
   ReviewStory = 'reviewStory',
   VoteProcess = 'voteProcess',
