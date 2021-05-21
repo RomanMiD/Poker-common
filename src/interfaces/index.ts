@@ -7,3 +7,4 @@ export * from './game-full.interface';
 export * from './game-base.interface';
 export * from './game-situation.interface';
 export * from './game-list-item.interface';
+export * from './pagination-params.interface';
