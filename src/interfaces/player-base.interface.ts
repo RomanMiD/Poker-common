@@ -1,6 +1,6 @@
 import { PlayerStatus, Role } from '../enums';
 
-export interface Player {
+export interface PlayerBase {
   _id?: string;
   userID: string;
   role: Role;
